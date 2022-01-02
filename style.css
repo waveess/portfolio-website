@@ -1,0 +1,90 @@
+body{
+    transition: 0.3s;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 237, 247);
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+/* switch shape */
+.switch{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(39, 38, 38);
+    border-radius: 20px;
+    position: relative;
+}
+
+/* flicker(circle shape) */
+.flicker{
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    transition: 0.3s;
+    /* shading effect inside the circle */
+    box-shadow: 
+    inset 4px 4px 4px rgb(255,255,255),
+    inset -4px -4px 4px rgb(195 193 198 / 90%);
+}
+
+.dark{
+    background-color: rgb(57, 57, 57);
+    transition: 0.3s;
+}
+.moon{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0 0 rgb(255, 255, 255);
+    position: absolute;
+    top: 5px;
+    left: 45px;
+}
+
+/* when the body element is dark */
+.dark .flicker {
+    transform: translateX(40px);
+}
+
+/* grabbing element dark and all the children */
+.dark > * {
+    color: white;
+}
+.main{
+    height: 80vh;
+}
+
+.main-text{
+    width: 50%;
+    padding: 30px;
+}
+
+/* displaying the projects */
+.square{
+    width: 98%;
+    height: 350px;
+    margin: 1%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.dark .square{
+    background-color: rgb(142, 140, 140);
+}
+
+@media only screen and (min-width: 970px) {
+    .square{
+        width: 48%;
+        margin: 1%;
+        height: 600px;
+    }
+}
