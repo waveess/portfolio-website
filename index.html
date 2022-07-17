@@ -7,22 +7,43 @@
     <link rel = "stylesheet" href = "./style.css">
     <title>Portfolio</title>
 </head>
+
 <body>
 
 <!-- flicker to switch between light and dark mode -->
 <header>
+  <nav>
+    <!-- Undordered list elemenet -->
+    <ul>
+        <!-- Anchor element -->
+        <li>
+            <a href="#about-me">About Me</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+        <li>
+            <a href="#contact-me">Contact</a>
+        </li>
+        
+    </ul>
+   
+    </nav>
+    
     <div class = "switch">
         <div class = "flicker"></div>
         <div class = "moon"></div>
     </div>
 </header>
 
-<section class = "main">
+<section class = "main" id = "about-me">
     <div class = "main-text">
         <h1>Rawan Fatima</h1>
         <p>Welcome to my page!</p>
         <br />
-        <p>I am a Full Stack Web Developer.I graduated from UC Berkeley coding bootcamp in 2020 and am currently completing my bachelors in computer science at the University of Phoenix.</p>
+        <p>A hardworking and driven Full Stack Web Developer.I am currently pursuing a 
+          degree in computer science. I enjoy learning new skills and challenging myself
+          to drive my career forward.</p>
         <br/>
         <a href = "#footer">contact me ></a>
     </div>
@@ -38,7 +59,9 @@
 <!-- Projects -->
 
 
-<h1 class = "projects">Projects</h1>
+<section id = "projects">
+
+  <h1 class = "projects">Projects</h1>
   
 <!-- Movie Search -->
 <div class="w3-container">
@@ -173,8 +196,10 @@
       <a href="https://wizardly-noether-2fef9a.netlify.app/">check it out ></a>
     </div>
   </section> -->
+</section>
 
-<footer id = "footer">
+<section id = "contact-me">
+  <footer id = "footer">
    
     <div class = "logo">
       <a href = "mailto: rawanfatima15@gmail.com">
@@ -184,6 +209,8 @@
 
    
 </footer>
+</section>
+
   <script src = "./script.js"></script>  
 </body>
 </html>
