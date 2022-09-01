@@ -390,25 +390,14 @@ footer{
     text-decoration: none;
     margin: 5px 2px;
   }
-  .fa-github {
-    color: #000000;
+  .fa{
+    color: black;
   }
-
-  .fa-envelope{
-    color: #000000;
-  }
-
-  .fa-link{
-    color: #000000;
-  }
-
-  .dark fa-github{
+  .dark fa{
     color: white;
   }
 
-  .dark fa-envelope{
-    color: white;
-  }
+  
 
   .card__content{
     left: 0;
@@ -422,6 +411,7 @@ footer{
 
 .card:hover img{
   opacity: 20%;
+  transition:ease-in;
 }
 
 .card:hover .card__content {
@@ -433,9 +423,9 @@ footer{
 
 button{
   background-color:rgb(136, 136, 136);
-  border-radius: 10px;
+  border-radius: 15px;
   height: 50px;
-  width: 10px;
+  width: 5px;
   border-color: transparent;
   padding: 10px 34px;
   position: relative;
@@ -451,3 +441,6 @@ button{
    top:-15%;
    right: -62%;
  }
+
+   
+  
