@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </>
     <link rel = "stylesheet" href = "./style.css">
+    <link rel = "stylesheet" href = "./projects.css">
     <title>Portfolio</title>
 </head>
 
@@ -21,11 +22,19 @@
     <!-- Undordered list elemenet -->
     <ul>
         <!-- Anchor element -->
+        <!-- <li>
+            <a href = "./index.html">
+                <img class = "logo" src = "./images/logo1.png">
+            </a>
+        </li> -->
+        <li>
+            <a class =href="index.html">Home</a>
+        </li>
         <li>
             <a href="#about-me">About Me</a>
         </li>
         <li>
-            <a href="#projects">Projects</a>
+            <a href="./projects.html">Projects</a>
         </li>
         <li>
             <a href="#contact-me">Contact</a>
@@ -46,11 +55,15 @@
         <h1>Rawan Fatima</h1>
         <p>Welcome to my page!</p>
         <br />
-        <p>A hardworking and driven Full Stack Web Developer.I am currently pursuing a 
-          degree in computer science. I enjoy learning new skills and challenging myself
-          to drive my career forward.</p>
+        <p>Hello! I'm Rawan, a computer science enthusiast turned professional
+             web developer. With a background in computer science and a passion
+              for coding, I've honed my skills to craft beautiful and functional 
+              websites. I thrive on turning ideas into reality through innovative
+               design and seamless user experiences. Whether it's building responsive
+                websites or developing custom solutions, I'm dedicated to creating
+                 digital experiences that leave a lasting impression.</p>
         <br/>
-        <a href = "#footer">contact me ></a>
+        <a class = "c-text" href = "#footer">contact me ></a>
     </div>
     <div class = "hero-image">
         <div class = "cube" id = "react"></div>
@@ -64,104 +77,16 @@
 <!-- Projects -->
 
 
-<section id = "projects">
 
-  <h1 class = "projects">Projects</h1>
-  <div class = "wrapper">
-    <!-- e-commerce -->
-<div class = "card">
-  <img class = "card-image" src = "./images/img-6.png" alt = "note-taker-app">
-  <div class = "card__content">
-    <h2 class = "card-title">E-Commerce Site</h2>
-    <p class="card__text">An e commerce site built using the shopify platform with
-      custom HTML,CSS and JavaScript integrations.
-    </p>
-      <button class = "link"> <a href= "https://www.beautifulcoloresstudio.com/" class="fa fa-link" aria-hidden="true"></a></button>
-    </div>
-    
-</div>
-    <!-- movie search -->
-    <div class = "card">
-      <!-- <h2>Movie Search</h2> -->
-      <img class = "card-image" src = "./images/img-1.png" alt = "beaitiful-colores-studio">
-      <div class = "card__content">
-        <h2 class = "card-title">Movie Search</h2>
-      <p class="card__text">A movie listing application that uses JavaScript ES6, 
-        jQuery along with Axios for making HTTP requests to the OMDb API.</p>
-        <div class = "button">
-        <button class = "github"> <a href= "https://github.com/waveess/movie-info" class = "fa fa-github"></a></button>
-        <button class = "link"> <a href= "https://gallant-hoover-91caca.netlify.app/" class="fa fa-link" aria-hidden="true"></a></button>
-        </div>
-        <!-- <button> <a href = "#" class="fa fa-link"</button> -->
-      </div>
-    </div>
-    <!-- music player -->
-    <div class = "card">
-      <!-- <h2>Music Player</h2> -->
-      <img class = "card-image" src = "./images/img-3.png" alt = "music-player-app">
-      <div class = "card__content">
-        <h2 class = "card-title">Music Player</h2>
-        <p class="card__text">A music player with play/pause and prev/next
-           functionality along with a progress bar that allows the user to 
-           select any part of the song.</p>
-          <button class = "github"> <a href= "https://github.com/waveess/music-player-project" class = "fa fa-github"></a></button>
-          <button class = "link"> <a href= "https://waveess.github.io/music-player-project/" class="fa fa-link" aria-hidden="true"></a></button>
-        </div>
-      </div>
-      <!-- D&D -->
-    <div class = "card">
-      <img class = "card-image" src = "./images/image-2.png" alt = "D&D-app">
-      <div class = "card__content">
-        <h2 class = "card-title">D&D Character Builder App</h1>
-        <p class="card__text">This projects goal was to strengthen full-stack 
-          development skills while building a helpful tool that allows new and 
-          old players of dungeons and dragons to create characters, share characters, 
-          and save characters.</p>
-          <button class = "github"> <a href= "https://github.com/bskutivan/character_builder" class = "fa fa-github"></a></button>
-          <button class = "link"> <a href= "https://dnd-char-builder.herokuapp.com/" class="fa fa-link" aria-hidden="true"></a></button>
-        </div>
-    </div>
-    <!-- note taker -->
-    <div class = "card">
-      <img class = "card-image" src = "./images/img-4.png" alt = "note-taker-app">
-      <div class = "card__content">
-        <h2 class = "card-title">Note Taker</h2>
-        <p class="card__text">The Note Taker application is aimed for the user to 
-          capture notes and store these notes on the Server. The application will 
-          also allow users to retrieve notes from the server.</p>
-          <button class = "github"> <a href= "https://github.com/waveess/notes" class = "fa fa-github"></a></button>
-          <button class = "link"> <a href= "https://note-takerrrr.herokuapp.com/notes.html" class="fa fa-link" aria-hidden="true"></a></button>
-        </div>
-    </div>
-    
-<!-- to do list app -->
-<div class = "card">
-  <img class = "card-image" src = "./images/img-5.png" alt = "note-taker-app">
-  <div class = "card__content">
-    <h2 class = "card-title">To Do List</h2>
-    <p class="card__text">A multi-list to-do list application that uses local storage 
-      to allow users to create lists and manage tasks.</p>
-      <button class = "github"> <a href= "https://github.com/waveess/to-do-list" class = "fa fa-github"></a></button>
-      <button class = "link"> <a href= "https://todo-list-22.netlify.app/" class="fa fa-link" aria-hidden="true"></a></button>
-    </div>
-    
-</div>
-
-  </div>
-
-    </div>
-
-    
-</section>
 
 
 
 <section id = "contact-me">
   <footer id = "footer">
    
-      <a href= "https://github.com/waveess" class = "fa fa-github"></a>
-      <a href = "mailto: rawanfatima15@gmail.com"class="fa fa-envelope" aria-hidden="true"></a>
-      <a href= "https://www.linkedin.com/in/rawan-fatima-11b26a1b9" class = "fa fa-linkedin"></a>
+      <a href= "https://github.com/waveess" class = "fa fa-github fa-3x"></a>
+      <a href = "mailto: rawanfatima15@gmail.com"class="fa fa-envelope fa-3x" aria-hidden="true"></a>
+      <a href= "https://www.linkedin.com/in/rawan-fatima-11b26a1b9" class = "fa fa-linkedin fa-3x"></a>
   
 </footer>
 </section>

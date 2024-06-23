@@ -1,0 +1,112 @@
+#apps {
+  margin-top: 50px; /* Adjust margin as needed */
+}
+
+#apps h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  width: calc(50% - 20px); /* Two cards in a row */
+  margin-bottom: 20px;
+  
+  border: 1px solid #ccc; /* Add border for card separation */
+  border-radius: 10px; /* Add rounded corners */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Maintain aspect ratio for images */
+}
+
+.card__content {
+  padding: 20px;
+}
+
+.card-title {
+  margin-top: 0;
+}
+
+.card__text {
+  margin-bottom: 10px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.github, .link {
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.github {
+  background-color: #333;
+}
+
+.link {
+  background-color: #007bff;
+}
+
+.github:hover, .link:hover {
+  opacity: 0.8; /* Adjust opacity on hover */
+}
+
+.card {
+  position: relative; /* Ensure positioning context for absolute positioning of content */
+}
+
+.card .card__content {
+  display: none; /* Initially hide card content */
+  position: absolute; /* Position card content absolutely */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  padding: 20px;
+  box-sizing: border-box;
+  transition: opacity 0.3s ease-in-out; /* Smooth transition for opacity */
+}
+
+.card:hover .card__content {
+  display: block; /* Show card content on hover */
+}
+.card:hover .card__text{
+  color: white;
+  font-weight: light;
+  font-size: 16px;
+}
+
+.card:hover .card-title{
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card .card__content h3,
+.card .card__content p,
+.card .card__content .buttons {
+  display: none; /* Initially hide text and buttons */
+}
+
+.card:hover .card__content h3,
+.card:hover .card__content p,
+.card:hover .card__content .buttons {
+  display: block; /* Show text and buttons on hover */
+}

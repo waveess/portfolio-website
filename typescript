@@ -1,16 +1,0 @@
-Script started on Sun Feb  6 14:49:41 2022
-[1m[7m%[27m[1m[0m                                                                                                [0m[27m[24m[Jrashdasaima@iMac portfolio-website % [K[?2004hsscript.js[?2004l
-zsh: command not found: script.js
-[1m[7m%[27m[1m[0m                                                                                                [0m[27m[24m[Jrashdasaima@iMac portfolio-website % [K[?2004hnnpm run   start[?2004l
-[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ENOENT
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35msyscall[0m open
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mpath[0m /Users/rashdasaima/package.json
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m -2
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35menoent[0m ENOENT: no such file or directory, open '/Users/rashdasaima/package.json'
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35menoent[0m This is related to npm not being able to find a file.
-[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35menoent[0m 
-[0m
-[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
-[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /Users/rashdasaima/.npm/_logs/2022-02-06T22_50_00_726Z-debug.log
-[0m[1m[7m%[27m[1m[0m                                                                                                [0m[27m[24m[Jrashdasaima@iMac portfolio-website % [K[?2004hcclear[?2004l
-[H[2J[1m[7m%[27m[1m[0m                                                                                                [0m[27m[24m[Jrashdasaima@iMac portfolio-website % [K[?2004h
