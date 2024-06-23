@@ -101,3 +101,147 @@ header {
 .project-overlay .github{
 margin-left: 0.5em;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-image {
+        height: auto;
+    }
+
+    .title {
+        font-size: 2em;
+        margin-left: 0;
+        padding-bottom: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        width: 20vw;
+        height: auto;
+        position: static;
+        margin: 0 auto;
+        display: block;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    .switch {
+        width: 60px;
+        height: 30px;
+    }
+
+    .flicker {
+        width: 25px;
+        height: 25px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .project-overlay h1 {
+        font-size: 1.5em;
+    }
+
+    .project-overlay p {
+        font-size: 0.9em;
+    }
+}
+
+nav {
+    margin: 50px 0; 
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+header nav ul li a:hover {
+    color: gray;
+    border-radius: 15px;
+    text-shadow: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 100px 30px;
+    background-color: rgb(99, 99, 99);
+}
+
+.fa {
+    width: 10%;
+    color: white;
+}
+
+.dark footer {
+    background-color: rgb(28, 28, 28);
+}
+
+/* Responsive styles for nav and footer */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li a {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    footer {
+        flex-direction: column;
+        padding: 50px 15px;
+    }
+
+    .fa {
+        width: 20%;
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav ul {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    footer {
+        flex-direction: row;
+        padding: 30px 10px;
+    }
+
+    .fa {
+        width: 30%;
+        display: flex;
+        margin-left: 10%;
+    }
+}
