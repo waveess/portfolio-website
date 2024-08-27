@@ -236,7 +236,7 @@ footer {
     }
 }
 
-@media (max-width:500px) {
+@media (min-width:1000px) and (max-width:2250px) {
     header nav ul {
         flex-direction: row;
         align-items: center;
