@@ -236,7 +236,7 @@ footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width:500px) {
     header nav ul {
         flex-direction: row;
         align-items: center;
@@ -271,4 +271,42 @@ footer {
         padding: 10px;
     }
 }
+
+
+@media (min-width: 350px) and (max-width:480px) {
+    header nav ul {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header nav ul li a {
+        font-size: 16px;
+        padding: 6px 10px;
+    }
+
+    footer {
+        flex-direction: row;
+        padding: 30px 10px;
+    }
+
+    .fa {
+        width: 30%;
+        display: flex;
+        margin-left: 10%;
+    }
+    .project-overlay h1 {
+        display:flex;
+        margin-top: 0;
+        font-size: 1em;
+        justify-content: center;
+        font-weight: bolder;
+    }
+    
+    .project-overlay p {
+        margin: 0;
+        font-size:0.7rem;
+        padding: 10px;
+    }
+}
+
 
